@@ -1,0 +1,9 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.place:first-of-type {
+  padding-top: 0;
+}

@@ -1,5 +1,5 @@
 .lead__image {
-  width: 61.5rem;
-  height: 38.4375rem;
+  max-width: 61.5rem;
+  max-height: 38.4375rem;
   padding-top: 4rem;
 }
