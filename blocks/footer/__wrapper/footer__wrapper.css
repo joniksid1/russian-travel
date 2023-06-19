@@ -1,0 +1,9 @@
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 74rem;
+  width: 100%;
+  padding-top: 5.75rem;
+  padding-bottom: 1.5rem;
+}
