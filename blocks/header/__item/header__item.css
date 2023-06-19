@@ -1,0 +1,4 @@
+.header__item:first-of-type {
+  text-decoration: underline;
+  padding-right: 1.125rem;
+}
