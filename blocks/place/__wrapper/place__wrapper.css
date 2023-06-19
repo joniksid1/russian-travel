@@ -3,3 +3,6 @@
   max-width: 61.5rem;
 }
 
+.place__wrapper:nth-of-type(2n) {
+  padding-top: 3rem;
+}

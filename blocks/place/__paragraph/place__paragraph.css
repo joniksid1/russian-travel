@@ -6,10 +6,10 @@
   margin: 0;
 }
 
-.place__paragraph:first-of-type {
-  padding-top: 3rem;
-}
-
 .place__paragraph:last-of-type {
   padding-top: 1.625rem;
+}
+
+.place__paragraph:only-of-type {
+  padding-top: 0;
 }
