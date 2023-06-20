@@ -5,4 +5,10 @@
   font-size: 1rem;
   line-height: 1.12;
   margin-right: 1.125rem;
+  transition: opacity .5s linear;
 }
+
+.footer__link:hover {
+  opacity: .8;
+}
+
