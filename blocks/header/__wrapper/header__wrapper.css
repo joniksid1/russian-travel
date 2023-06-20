@@ -2,6 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 74rem;
+  max-width: calc(100% - 6rem);
+  width: 100%;
   padding-top: 1.75rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__wrapper {
+    max-width: calc(100% - 3rem);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__wrapper {
+    max-width: calc(100% - 2rem);
+    padding-top: 1rem;
+  }
 }

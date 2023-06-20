@@ -2,6 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 61.5rem;
   padding-top: 3.5rem;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding-top: 3rem;
+  }
 }
