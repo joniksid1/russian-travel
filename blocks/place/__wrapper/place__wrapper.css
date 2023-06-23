@@ -1,8 +1,17 @@
 .place__wrapper {
   display: flex;
-  max-width: 61.5rem;
 }
 
 .place__wrapper:nth-of-type(2n) {
   padding-top: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .place__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .place__wrapper:nth-of-type(2n) {
+    padding-top: 2rem;
+  }
 }

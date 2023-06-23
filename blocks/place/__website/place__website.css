@@ -7,3 +7,27 @@
   min-height: 2.875rem;
   padding-left: 2.5rem;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__website {
+    max-width: 28.5rem;
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__website {
+    max-width: 22rem;
+    padding-left: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    align-self: center;
+    max-width: 18rem;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 2rem;
+  }
+}
