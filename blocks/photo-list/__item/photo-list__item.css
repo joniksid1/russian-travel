@@ -1,27 +1,24 @@
-.photo-grid__item {
+.photo-list__item {
   max-width: 17.75rem;
   max-height: 13.3125rem;
-  object-fit: cover;
-  object-position: center;
 }
 
 @media screen and (max-width: 1279px) {
-  .photo-grid__item {
+  .photo-list__item {
     max-width: 18.75rem;
     max-height: 14.0625rem;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .photo-grid__item {
+  .photo-list__item {
     max-width: 22rem;
     max-height: 16.5rem;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .photo-grid__item {
+  .photo-list__item {
     max-width: 18rem;
     max-height: 13.5rem;
   }

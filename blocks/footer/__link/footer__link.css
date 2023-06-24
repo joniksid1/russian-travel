@@ -12,10 +12,14 @@
   opacity: .8;
 }
 
+.footer__link:last-child {
+  margin: 0;
+}
+
 @media screen and (max-width: 767px) {
   .footer__link {
-    padding-top: 2rem;
     margin: 0;
+    padding-top: 2rem;
     font-size: 1.5rem;
     line-height: 1;
   }

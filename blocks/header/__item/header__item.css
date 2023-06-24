@@ -1,3 +1,7 @@
-.header__item:first-of-type {
+.header__item {
   padding-right: 1.125rem;
+}
+
+.header__item:last-of-type {
+  padding: 0;
 }

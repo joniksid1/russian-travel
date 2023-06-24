@@ -1,0 +1,6 @@
+.photo-list__image {
+  width: 100%;
+  aspect-ratio: 1.33;
+  object-fit: cover;
+  object-position: center;
+}

@@ -10,6 +10,19 @@
   color: #fff;
 }
 
-.cover__link:hover .cover__overlay {
+.cover__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity .5s ease-in-out;
+}
+
+.cover__link:hover::after {
   opacity: .8;
 }
